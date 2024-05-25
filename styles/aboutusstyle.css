@@ -140,28 +140,25 @@ h2:hover{
   color: aqua;
 }
 
-@media screen and (max-width: 768px) {
-  .head2 {
-      top: 20%;
-  }
-  .navi ul li {
-      margin-right: 10px;
-  }
-  .column {
-      flex: 50%;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* Add your responsive styles here */
-  body {
-    font-size: 14px;
-  }
+@media only screen and (max-width: 768px) {
+    /* Add your responsive styles here */
+    body {
+        font-size: 14px;
+    }
 }
 
-/* For screens 768px and larger */
-@media screen and (min-width: 768px) {
-  /* Add your responsive styles here */
-  body {
-    font-size: 16px;
-  }
+/* For screens between 768px and 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Add your responsive styles here */
+    .container {
+        width: 90%;
+    }
+}
+
+/* For screens larger than 1024px */
+@media only screen and (min-width: 1024px) {
+    /* Add your responsive styles here */
+    .header {
+        padding: 20px;
+    }
 }
