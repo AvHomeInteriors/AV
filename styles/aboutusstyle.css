@@ -185,13 +185,13 @@ h2:hover{
 }
 @media only screen and (max-width: 768px) {
   body {
-    background-image: url('../images/Modern\ Kitchen\,\ Candi\ \ Pradipta\ Abiseka.jpg');
+    background-size:contain;
   }
 }
 
 /* For mobile phones */
 @media only screen and (max-width: 480px) {
   body {
-    background-image: url('../images/Modern\ Kitchen\,\ Candi\ \ Pradipta\ Abiseka.jpg');
+    background-size:contain;
   }
 }
