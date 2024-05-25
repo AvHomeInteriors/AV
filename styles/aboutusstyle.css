@@ -1,6 +1,8 @@
 body{
     background:linear-gradient(rgba(245, 242, 242, 0.2),rgba(244, 241, 241, 0.4)),url('../images/Modern\ Kitchen\,\ Candi\ \ Pradipta\ Abiseka.jpg');
-     background-size: 100% auto;
+     background-size: 100% 100%;
+    background-size: contain;
+  background-repeat: no-repeat;
     background-repeat: no-repeat;
     padding:2.5% 0% 2.5% 0%;
     width:100%
