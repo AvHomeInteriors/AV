@@ -139,35 +139,45 @@ footer h1 {
 h2:hover{
   color: aqua;
 }
-@media only screen and (max-width: 768px) {
-    /* Add your responsive CSS styles here */
-    body {
-        font-size: 14px;
-    }
-    header {
-        padding: 10px;
-    }
-    main {
-        padding: 10px;
-    }
-    footer {
-        padding: 10px;
-    }
-}
+@media (max-width: 768px) {
+            .navi ul {
+                flex-direction: column;
+                align-items: center;
+            }
 
-/* For screens between 768px and 1024px (tablets) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Add your responsive CSS styles here */
-    body {
-        font-size: 16px;
-    }
-    header {
-        padding: 20px;
-    }
-    main {
-        padding: 20px;
-    }
-    footer {
-        padding: 20px;
-    }
-}
+            .navi a {
+                padding: 0.5em;
+                text-align: center;
+            }
+
+            header h1, footer h1 {
+                font-size: 1.2em;
+            }
+
+            .section1 h2, .section2 h2, .section3 h2 {
+                font-size: 1.2em;
+            }
+
+            .section1 p, .section2 ul, .section3 ul {
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .navi a {
+                padding: 0.5em;
+                font-size: 0.9em;
+            }
+
+            header h1, footer h1 {
+                font-size: 1em;
+            }
+
+            .section1 h2, .section2 h2, .section3 h2 {
+                font-size: 1em;
+            }
+
+            .section1 p, .section2 ul, .section3 ul {
+                font-size: 0.8em;
+            }
+        }
