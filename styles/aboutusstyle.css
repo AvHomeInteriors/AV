@@ -183,3 +183,15 @@ h2:hover{
     font-size: 100%;
   }
 }
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url('tablet-background.jpg');
+  }
+}
+
+/* For mobile phones */
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url('mobile-background.jpg');
+  }
+}
